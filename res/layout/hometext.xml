@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/opback">
+
+     
+<LinearLayout
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp" >
+
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome to Out of Box Configuration Wizard"
+    android:textSize="25sp" 
+    android:textColor="#FFFF00"
+    android:textStyle="bold"
+    />
+<View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+           android:layout_marginTop="10dp"
+            android:background="#808080" />
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Thank you for purchasing Wizbox Smart Box"
+    android:textSize="22sp" 
+    android:textColor="#3BB9FF"
+    android:layout_marginTop="50sp"
+    />
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Please click buttons on your left side to complete the one time\nconfiguration of Wizbox"
+    android:textSize="22sp" 
+    android:textColor="#3BB9FF"
+    android:layout_marginTop="30sp"
+    />
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="For any assistant, please contact WizBox Support team at\n08447633492 or contact via email support@wizbox.in"
+    android:textSize="22sp" 
+    android:textColor="#3BB9FF"
+    android:layout_marginTop="30sp"
+    />
+
+</LinearLayout>
+</LinearLayout>
